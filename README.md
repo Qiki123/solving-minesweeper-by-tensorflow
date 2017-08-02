@@ -1,4 +1,4 @@
-# TensorFlow solving minesweeper
+# TensorFlow solve minesweeper
 
 ## 簡介
 使用 TensorFlow 訓練 model 解 minesweeper (踩地雷)
