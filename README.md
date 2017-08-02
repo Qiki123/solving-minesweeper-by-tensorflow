@@ -3,7 +3,7 @@
 ## 簡介
 使用 TensorFlow 訓練 model 解 minesweeper (踩地雷)
 
-model 正確率達到 94%  E(in) = 97.69% E(out) = 94.34 
+model 正確率達到 94%  E(in) = 97.69% E(out) = 94.34
 
 ## 開發環境
 
@@ -26,6 +26,8 @@ Ubuntu 17 + Python 3.5 + TensorFlow 1.2
 
 訓練完成後 checkpoint & model 會儲存在 ./model/model-gamma/run-{date}-{time}
 
+*註：由於 TensorFlow 管理檔案的方式，預先訓練的模型會沒有 GRAPH*
+
 - 使用預先訓練的 model
 ~~~bash
 $> python gui.py -t ./model/readymade/model-gamma-3500.meta -m model-gamma.py
@@ -45,3 +47,5 @@ $> python gui.py -t ./model/model-gamma/run-{date}-{time}/model-gamma-{check-poi
 ~~~bash
 $> tensorboard --logdir ./model/model-gamma/run-{date}-{time}/
 ~~~
+
+
