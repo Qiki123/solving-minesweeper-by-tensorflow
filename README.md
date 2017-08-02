@@ -28,7 +28,7 @@ Ubuntu 17 + Python 3.5
 
 訓練完成後 checkpoint & model 會儲存在 ./model/model-gamma/run-{date}-{time}
 
-由於 TensorFlow 管理檔案的方式，預先訓練的模型會沒有 GRAPH*
+由於 TensorFlow 管理檔案的方式，預先訓練的模型會沒有 GRAPH
 
 - 使用預先訓練的 model
 ~~~bash
