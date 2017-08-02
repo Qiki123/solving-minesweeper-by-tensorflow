@@ -7,7 +7,7 @@ model 正確率達到 94% *(E(in) = 97.69% E(out) = 94.34*
 
 ## 開發環境
 
-Ubuntu 17 + Python 3.5 + TensorFlow 1.2
+Ubuntu 17 + Python 3.5
 
 ## 檔案簡介
 
@@ -22,11 +22,13 @@ Ubuntu 17 + Python 3.5 + TensorFlow 1.2
 | data | 預先產生的 dataset |
 
 ## 使用方法
+
+#### 注意事項
 以 CPU 訓練 model 訓練時間約 1 小時 50 分鐘
 
 訓練完成後 checkpoint & model 會儲存在 ./model/model-gamma/run-{date}-{time}
 
-*註：由於 TensorFlow 管理檔案的方式，預先訓練的模型會沒有 GRAPH*
+由於 TensorFlow 管理檔案的方式，預先訓練的模型會沒有 GRAPH*
 
 - 使用預先訓練的 model
 ~~~bash
