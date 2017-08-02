@@ -13,9 +13,9 @@ Ubuntu 17 + Python 3.5 + TensorFlow 1.2
 
 | 檔案 | 簡介 |
 | ------ | ------ |
-| model-gamma.py| model 定義 & model 訓練 |
-| gui.py | model 解採地雷 | 
-| minesweeper.py | 視覺化 model 解採地雷 |
+| model-gamma.py| model 定義 & 訓練 model |
+| gui.py | 視覺化 model 解採地雷 | 
+| minesweeper.py | minesweeper 遊戲邏輯 ＆ API |
 | dataset.py | 將 minesweeper.py 產生的遊戲內容轉換並包裝成訓練資料 |
 | packages | 專案用到 python 的套件 (pip freeze  > packages) | 
 | model/readymade/ | 預先訓練完的 model  |
