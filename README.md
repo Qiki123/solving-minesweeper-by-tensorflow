@@ -3,7 +3,7 @@
 ## 簡介
 使用 TensorFlow 訓練 model 解 minesweeper (踩地雷)
 
-model 正確率達到 94%  ( E(in) = 97.69% E(out) = 94.34 
+model 正確率達到 94%  E(in) = 97.69% E(out) = 94.34 
 
 ## 開發環境
 
