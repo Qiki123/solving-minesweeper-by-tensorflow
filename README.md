@@ -18,7 +18,7 @@ Ubuntu 17 + Python 3.5 + TensorFlow 1.2
 | minesweeper.py | 視覺化 model 解採地雷 |
 | dataset.py | 將 minesweeper.py 產生的遊戲內容轉換並包裝成訓練資料 |
 | packages | 專案用到 python 的套件 (pip freeze  > packages) | 
-| model/ac-96/ | 預先訓練完的 model  |
+| model/readymade/ | 預先訓練完的 model  |
 | data | 預先產生的 dataset |
 
 ## 使用方法
@@ -38,7 +38,7 @@ $> python gui.py -t ./model/model-gamma/run-{date}-{time}/model-gamma-{check-poi
 
 - 使用預先訓練的 model
 ~~~bash
-$> python gui.py -t ./model/ac-96/model-gamma-3500.meta -m model-gamma.py
+$> python gui.py -t ./model/readymade/model-gamma-3500.meta -m model-gamma.py
 ~~~
 
 - 使用 TensorBoard 查看結果
