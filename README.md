@@ -22,6 +22,7 @@ Ubuntu 17 + Python 3.5 + TensorFlow 1.2
 
 ## 使用方法
 以 CPU 訓練 model 訓練時間約 1 小時 50 分鐘
+
 訓練完成後 checkpoint & model 會儲存在 ./model/model-gamma/run-{date}-{time}
 
 - 訓練 model 
