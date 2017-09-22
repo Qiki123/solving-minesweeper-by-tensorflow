@@ -50,4 +50,6 @@ $> python gui.py -t ./model/model-gamma/run-{date}-{time}/model-gamma-{check-poi
 $> tensorboard --logdir ./model/model-gamma/run-{date}-{time}/
 ~~~
 
+## DEMO
+[![IMAGE ALT TEXT HERE](https://i.imgur.com/mt6PlBV.jpg)](https://www.youtube.com/watch?v=xxTLdUPSET0)
 
